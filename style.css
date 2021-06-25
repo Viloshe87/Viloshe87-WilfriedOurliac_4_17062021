@@ -321,7 +321,8 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right:100px;
+    margin:100px;
+    margin-top: -7px;
     z-index: 1;
 }
 
@@ -706,7 +707,18 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    
 }
+
+.social2{
+    max-width: 400px;
+    margin: auto auto auto auto;
+    display: flex;
+    justify-content: center;
+    padding-right:40px;
+    padding-left:40px;
+}
+
 
 h2 {
     font-size: 22px;
@@ -1040,10 +1052,16 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
+        display: block;
+        max-width: 300px;
+        height: auto;
+        margin: auto;
     }
 }
 
@@ -1067,3 +1085,6 @@ h4 {
     font-weight: bold;
 }
 
+text-center white h3{
+    color: white;
+}
