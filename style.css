@@ -22,6 +22,13 @@ a:hover {
     cursor: pointer;
 }
 
+p{
+font-size: 20px;
+}
+
+.bloc-7 + p{
+    color: black;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -444,6 +451,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 18px
 }
 
 .mg-lg {
@@ -658,7 +666,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color:black !important;
 }
 
 
@@ -682,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 15px;
+    font-size:16px;
 }
 
 .tight-width-whitespace {
@@ -738,10 +746,6 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333 !important;
-}
-
 h4 {
     color: #333333 !important;
 }
@@ -792,15 +796,16 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #f3976c;
+    background-color: #ed6c02;
 }
 
 .tc-white {
-    color: #f3976c !important;
+    color: #ffc800 !important;
+    font-size:22px;
 }
 
 .btn-atomic-tangerine {
-    background: #f3976c;
+    background: #ed6c02;
     color: #ffffff !important;
     padding: 18px;
     border-radius: 50px;
@@ -821,7 +826,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #f3976c !important;
+    color: #ffaa00 !important;
 }
 
 .ltc-atomic-tangerine:hover {
