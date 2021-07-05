@@ -316,8 +316,8 @@ a:focus {
 }
 
 .social:focus {
-    border-bottom:solid;
-    border-top:none;
+    border-bottom: solid;
+    border-top: none;
     border-left: none;
     border-right: none;
     border-color: white;
@@ -715,7 +715,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color:#000000 !important;
+    color: #000000 !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -767,8 +767,8 @@ h4 {
     margin-top: 24px;
 }
 
-.black{
-    color:#000000 !important;
+.black {
+    color: #000000 !important;
 }
 
 .portfolio-thumb {
@@ -813,7 +813,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #ed6c02;
-    color:#000000 !important;
+    color: #000000 !important;
     padding: 18px;
     border-radius: 50px;
     border: none;
@@ -821,7 +821,7 @@ h4 {
 
 .btn-atomic-tangerine:hover {
     background: #c27956 !important;
-    color:#000000 !important;
+    color: #000000 !important;
 }
 
 .ltc-white {
@@ -1113,4 +1113,18 @@ h4 {
 
 text-center white h3 {
     color: white;
+}
+
+@media (max-width: 767px) {
+    .nav > li {
+        margin: 0px;
+    }
+
+    .nav > li a:hover,
+    .nav > li a:focus {
+        background-color: #ed6c02;
+        color: #ffffff !important;
+        border-radius: 0px;
+        width: 100%;
+    }
 }
